@@ -17,7 +17,7 @@ const forecast = (lat, lng, callback) => {
             const feelsLike = body.current.feelslike
             const isDay = body.current.is_day
             callback(undefined,`weather description is: ${weather_description}, It is currently ${temp} degrees out, But it feels like  ${feelsLike} degrees out
-            ${isDay}`)
+            if it is day: ${isDay}`)
             
         }
 })
